@@ -56,12 +56,6 @@ sudo pacman -Rns firefox
 sudo pacman -Rns caelestia-firefox-theme
 ```
 
-## Remove Meld :-
-
-```shell
-sudo pacman -Rns meld
-```
-
 ## Remove Shelly :-
 
 ```shell
