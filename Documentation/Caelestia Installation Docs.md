@@ -47,6 +47,18 @@ sudo systemctl enable sddm
 sudo pacman -Syu
 ```
 
+# Install a SDDM Login Screen theming :-
+
+## Clone the repository and run its setup :-
+
+```shell
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/keyitdev/sddm-astronaut-theme/master/setup.sh)"
+```
+
+## Copy other importants files :-
+
+- Copy the wallpapers from `../Assets/Wallpapers` into `Pictures/Wallpapers`.
+- Update the wallpaper accordingly.
 
 
 # Caelestia Shortcuts and Hyprland utilities :-
@@ -84,13 +96,3 @@ hyprctl reload
 ```shell
 hyprctl binds | less
 ```
-
-
-
-# Install a SDDM Login Screen theming :-
-
-```shell
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/keyitdev/sddm-astronaut-theme/master/setup.sh)"
-```
-
-- Update wallpapers and other things
